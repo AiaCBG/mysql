@@ -1,0 +1,2 @@
+-- Consulta (SELECT) todos (*) los datos de (FROM) la tabla "users" donde (WHERE) el "email" no es (NOT) "sara@mail.com" O (OR) la edad (age) sea igual a 15 (= 15), limitando la consulta (LIMIT) a "2" datos 
+SELECT * FROM users WHERE NOT email = 'sara@mail.com' OR age = 15 LIMIT 2;
